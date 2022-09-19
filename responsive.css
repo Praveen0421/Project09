@@ -782,9 +782,6 @@
     border-radius: 180px 0px 120px 0px;
   }
 
-  * {
-    border: 1px solid red;
-  }
   .question-heading {
     font-size: 20px;
   }
