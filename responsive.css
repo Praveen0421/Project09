@@ -665,7 +665,7 @@
   .question-para,
   .contact {
     position: relative;
-    left: 12px;
+    left: 0px;
   }
   .question-heading {
     font-size: 22px;
@@ -737,7 +737,7 @@
     font-size: 25px;
   }
   .article-link {
-    right: 0px;
+    right: 10px;
     font-size: 16px;
   }
 
@@ -781,8 +781,15 @@
   .question {
     border-radius: 180px 0px 120px 0px;
   }
+
+  * {
+    border: 1px solid red;
+  }
   .question-heading {
     font-size: 20px;
+  }
+  .question-para {
+    font-size: 14px;
   }
   .contact {
     font-size: 14px;
