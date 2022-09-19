@@ -1,0 +1,817 @@
+@media only screen and (max-width: 1280px) {
+  .logo {
+    left: -100px;
+  }
+  .nav-items {
+    right: -80px;
+  }
+
+  .header {
+    padding-bottom: 200px;
+  }
+
+  .header-content {
+    margin-top: 40px;
+  }
+  .line {
+    position: relative;
+    top: 120px;
+    left: 65px;
+    width: 50px;
+  }
+  .heading {
+    font-size: 35px;
+  }
+  .para {
+    font-size: 18px;
+  }
+  .header-image {
+    bottom: -130px;
+    height: 500px;
+    width: 600px;
+  }
+
+  /* company-api-cards */
+
+  .company {
+    display: flex;
+    position: relative;
+    left: 50px;
+    max-width: 700px;
+  }
+  .company-name {
+    font-size: 22px;
+    font-family: Righteous;
+    margin: 0px 20px;
+  }
+  .api-heading {
+    font-size: 40px;
+  }
+  .cards {
+    left: 0px;
+  }
+
+  .card {
+    height: 260px;
+    max-width: 240px;
+  }
+
+  .card-logo {
+    position: relative;
+    bottom: 10px;
+    height: 50px;
+  }
+
+  .card-body-para {
+    font-size: 15px;
+  }
+  .greaterThan {
+    height: 50px;
+    width: 50px;
+  }
+  .greaterThan h1 {
+    font-size: 40px;
+  }
+  .veiw-more {
+    display: none;
+  }
+
+  /* article-blog */
+
+  .article-blog {
+    padding: 80px 0px;
+  }
+
+  .article-heading {
+    font-size: 40px;
+  }
+  .article-link {
+    right: 120px;
+  }
+  .articles {
+    flex-direction: column;
+  }
+  .article2 {
+    margin-top: 80px;
+  }
+  /* search-question */
+
+  .question-heading {
+    font-size: 35px;
+  }
+  .question-para2 {
+    padding: 0px;
+  }
+  .contact {
+    font-size: 15px;
+  }
+  .contact {
+    top: 10px;
+  }
+
+  /* footer */
+
+  .footer-logo {
+    left: -400px;
+  }
+  .logo-icon {
+    position: relative;
+    top: 80px;
+    display: flex;
+  }
+  .icons {
+    right: -400px;
+  }
+
+  .list1 {
+    left: -200px;
+  }
+  .list2 {
+    right: -200px;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .logo {
+    position: relative;
+    left: 0px;
+  }
+  .nav-items {
+    right: 0px;
+  }
+  .header {
+    padding-bottom: 90px;
+  }
+  .header-content {
+    top: 0px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .line {
+    position: relative;
+    left: 28px;
+    top: 0px;
+    width: 40px;
+  }
+  .heading,
+  .para {
+    top: 0px;
+    left: 0px;
+    text-align: center;
+  }
+  .heading {
+    font-size: 35px;
+  }
+  .para {
+    margin: 20px 0px;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .header-image {
+    position: relative;
+    top: 20px;
+    max-height: 350px;
+    max-width: 510px;
+  }
+  .company {
+    left: 0px;
+  }
+
+  .api-heading {
+    text-align: center;
+    left: 0px;
+    font-size: 30px;
+  }
+  .section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .collection1,
+  .collection2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+  .section-two {
+    position: relative;
+    top: 30px;
+  }
+  .cards {
+    flex-direction: column;
+  }
+  .card {
+    flex-direction: column;
+    margin: 0px 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+  }
+
+  .card-head-active {
+    font-size: 20px;
+  }
+  .collection2 {
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .card4 {
+    top: 0px;
+  }
+  .card5 {
+    display: none;
+  }
+  .greaterThan {
+    display: none;
+  }
+  .veiw-more {
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+  }
+  /* article-blog */
+  .article-heading {
+    font-size: 30px;
+  }
+  /* search-question */
+  .search {
+    height: 400px;
+    width: 600px;
+  }
+
+  .question-heading {
+    font-size: 28px;
+    max-width: 200px;
+  }
+  .question-para {
+    padding: 15px 0px;
+    max-width: 550px;
+  }
+  .question-para2 {
+    max-width: 450px;
+  }
+  .contact {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  .contact {
+    position: relative;
+    top: 20px;
+  }
+  /* download */
+  .download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px;
+  }
+  .download .download-text {
+    position: relative;
+    left: 0px;
+    font-size: 25px;
+  }
+  .download span {
+    font-weight: 400;
+  }
+
+  .download-email form {
+    position: relative;
+    left: 0px;
+    top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    width: 650px;
+    height: 150px;
+    border-radius: 50px;
+  }
+  .download-email form .email {
+    position: relative;
+    top: 15px;
+    font-size: 18px;
+    max-width: 250px;
+    border: none;
+    outline: none;
+  }
+  .download-email form .download-btn {
+    position: relative;
+    right: 5px;
+    font-size: 18px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 50px;
+  }
+
+  .footer-logo {
+    position: relative;
+    left: 5px;
+  }
+  .logo-icon {
+    top: 0px;
+  }
+  .icons {
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    bottom: -200px;
+  }
+  .lists {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .list {
+    display: flex;
+    padding: 20px 0px;
+    top: 0px;
+  }
+  .list1 {
+    left: 0px;
+  }
+  .list2 {
+    right: 0px;
+  }
+  .list-items {
+    list-style-type: none;
+    padding: 0px 10px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .border {
+    border: none;
+  }
+  .border-right {
+    border: none;
+  }
+  .footer-icon {
+    padding: 0px 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .nav-items {
+    display: none;
+  }
+  .logo {
+    position: relative;
+    left: -90px;
+    max-height: 30px;
+  }
+  .bar {
+    display: block;
+    position: relative;
+    right: -90px;
+    max-height: 30px;
+  }
+  .header-content {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .line {
+    position: relative;
+    left: 28px;
+    width: 40px;
+  }
+
+  .heading {
+    font-size: 35px;
+  }
+  .para {
+    margin: 20px 0px;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .header-image {
+    max-height: 450px;
+    max-width: 510px;
+  }
+  .company {
+    display: flex;
+    justify-content: space-around;
+  }
+  .company-name {
+    font-size: 22px;
+    font-family: Righteous;
+    margin: 20px 20px;
+  }
+  .api-heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .collection1,
+  .collection2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+  .section-two {
+    position: relative;
+    top: 30px;
+  }
+  .cards {
+    position: relative;
+    margin-top: 30px;
+  }
+  .collection2 {
+    position: relative;
+    margin-top: 20px;
+  }
+  .card5 {
+    display: none;
+  }
+  .card {
+    margin: 0px 10px;
+    padding: 30px;
+    height: 220px;
+    max-width: 290px;
+    border-radius: 15px;
+  }
+  .card-content {
+    position: relative;
+    top: 20px;
+  }
+  .veiw-more {
+    text-decoration: none;
+    position: relative;
+    margin: 30px 0px;
+    font-size: 20px;
+  }
+
+  /* article-blog */
+
+  .article-blog {
+    padding: 40px 0px;
+  }
+  .article-blog-heading {
+    position: relative;
+    top: 30px;
+  }
+  .article-heading {
+    font-size: 30px;
+  }
+  .article-link {
+    position: relative;
+    top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .articles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+  }
+  .article {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    height: 750px;
+    border-radius: 50px;
+  }
+  .article-content {
+    position: relative;
+    top: 20px;
+    left: 8px;
+  }
+  .article-img {
+    max-height: 350px;
+    border-radius: 50px;
+  }
+  .date {
+    font-size: 16px;
+  }
+  .blog-text {
+    font-size: 28px;
+    padding: 10px 0px;
+  }
+  small {
+    font-size: 16px;
+  }
+  .writter {
+    position: relative;
+    top: 25px;
+    display: flex;
+  }
+  .dot {
+    height: 50px;
+  }
+  .small-text {
+    position: relative;
+    top: 12px;
+    left: 10px;
+    font-size: 16px;
+  }
+  .search {
+    width: 100%;
+  }
+  .question {
+    flex-direction: column;
+    border-radius: 210px 0px 120px 0px;
+  }
+  .question-content {
+    position: relative;
+    left: 0px;
+    width: 100%;
+    padding: 50px 0px 50px 25px;
+  }
+  .question-heading,
+  .question-para2,
+  .question-para,
+  .contact {
+    position: relative;
+    left: 20px;
+  }
+
+  .question-heading {
+    font-size: 28px;
+    max-width: 200px;
+  }
+  .question-para {
+    padding: 15px 0px;
+    max-width: 550px;
+  }
+  .question-para2 {
+    max-width: 450px;
+  }
+  .contact {
+    font-size: 18px;
+  }
+  .contact {
+    position: relative;
+    top: 20px;
+  }
+  .download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px;
+  }
+  .download .download-text {
+    position: relative;
+    font-size: 25px;
+  }
+  .download span {
+    font-weight: 400;
+  }
+
+  .footer-logo {
+    position: relative;
+    left: 5px;
+  }
+  .icons {
+    position: absolute;
+    width: 100%;
+  }
+
+  .list {
+    display: flex;
+    padding: 20px 0px;
+  }
+
+  .footer-icon {
+    height: 40px;
+    padding: 0px 10px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .logo {
+    left: -50px;
+  }
+  .bar {
+    right: -50px;
+  }
+
+  .line {
+    position: relative;
+    left: 28px;
+  }
+
+  .company-name {
+    font-size: 18px;
+  }
+
+  .card-head-active {
+    font-size: 18px;
+  }
+  .card-head {
+    position: relative;
+    top: -12px;
+  }
+  .veiw-more {
+    font-size: 18px;
+  }
+
+  /* article-blog */
+
+  .article-heading {
+    font-size: 28px;
+  }
+  .article {
+    height: 650px;
+  }
+  .article-content {
+    position: relative;
+    top: 20px;
+    left: 8px;
+  }
+  .article-img {
+    max-height: 270px;
+    border-radius: 50px;
+  }
+  .date {
+    font-size: 15px;
+  }
+  .blog-text {
+    font-size: 25px;
+    padding: 10px 0px;
+  }
+  small {
+    font-size: 14px;
+  }
+
+  .small-text {
+    font-size: 14px;
+  }
+
+  /* search-question */
+
+  .question {
+    border-radius: 200px 0px 120px 0px;
+  }
+  .question-content {
+    left: 0px;
+    max-width: 600px;
+    padding: 50px 0px 50px 0px;
+  }
+  .question-heading,
+  .question-para2,
+  .question-para,
+  .contact {
+    position: relative;
+    left: 12px;
+  }
+  .question-heading {
+    font-size: 22px;
+  }
+  .question-para2 {
+    font-size: 16px;
+  }
+  .download-email form {
+    width: 450px;
+    height: 150px;
+  }
+  .download-email form .email {
+    max-width: 250px;
+  }
+
+  .footer-logo {
+    left: 5px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .logo {
+    left: -20px;
+  }
+  .bar {
+    right: -20px;
+  }
+
+  .line {
+    left: 48px;
+  }
+  .heading {
+    font-size: 23px;
+  }
+
+  .para {
+    margin: 20px 0px;
+  }
+  .header-image {
+    max-height: 350px;
+    max-width: 310px;
+  }
+  .company {
+    display: flex;
+    justify-content: space-around;
+  }
+  .company-name {
+    font-size: 14px;
+    margin: 20px 6px;
+  }
+  .api-heading {
+    font-size: 25px;
+  }
+
+  .card {
+    margin: 0px 0px;
+  }
+  .card-content {
+    position: relative;
+    top: 20px;
+  }
+  .veiw-more {
+    font-size: 16px;
+  }
+
+  /* article-blog */
+
+  .article-heading {
+    left: 10px;
+    font-size: 25px;
+  }
+  .article-link {
+    right: 0px;
+    font-size: 16px;
+  }
+
+  .article-content {
+    position: relative;
+    top: 20px;
+    left: 8px;
+  }
+  .article-img {
+    max-height: 250px;
+    border-radius: 50px;
+  }
+  .article {
+    max-width: 280px;
+  }
+  .date {
+    font-size: 10px;
+  }
+
+  small {
+    font-size: 12px;
+  }
+  .writter {
+    top: 25px;
+  }
+
+  .blog-text {
+    font-size: 20px;
+  }
+
+  .dot {
+    height: 35px;
+  }
+  .small-text {
+    top: 8px;
+    font-size: 12px;
+  }
+  .search {
+    width: 100%;
+  }
+  .question {
+    border-radius: 180px 0px 120px 0px;
+  }
+  .question-heading {
+    font-size: 20px;
+  }
+  .contact {
+    font-size: 14px;
+  }
+
+  .download {
+    padding: 100px 0px;
+  }
+  .download .download-text {
+    position: relative;
+    font-size: 18px;
+  }
+  .download span {
+    font-weight: 400;
+  }
+
+  .download-email form {
+    width: 300px;
+    height: 150px;
+  }
+  .download-email form .email {
+    font-size: 15px;
+    max-width: 250px;
+  }
+  .download-email form .download-btn {
+    font-size: 12px;
+  }
+  .footer-logo {
+    position: relative;
+    left: 5px;
+  }
+}
