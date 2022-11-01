@@ -130,7 +130,7 @@
     right: -200px;
   }
 }
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1024px) {
   .logo {
     position: relative;
     left: 0px;
