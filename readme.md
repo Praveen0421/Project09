@@ -9,7 +9,7 @@
 
 - `It help me to know, before making any website one should be clear how your website should look on all devices`
 
-#### It took hr to complete this project and made it responsive too
+#### It took 10hr to complete this project and made it responsive too
 
 ![Project09](thumbnail.png)
 
